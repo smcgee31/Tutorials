@@ -1,3 +1,5 @@
+//===============================================================  PART ONE  ===================================================================================================================================================
+
 function* createHello() {
   yield 'first';                    // By adding something to the yield keyword we are communicating something to the instance
 }
@@ -7,6 +9,11 @@ console.log(hello.next());          // What you get back is { value: 'first', do
                                     // finished executing the generator. We are in fact paused at the yield keyword.
 console.log(hello.next());          // To finish executing the generator we simply call the hello.next() again.
                                     // Now the return is { value: undefined, done: true }  <-done is true because we are finished executing.
+
+
+
+
+//===============================================================  PART TWO  ===================================================================================================================================================
 
 
 
